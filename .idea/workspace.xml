@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tree/InsertBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/delnodefromBStree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/inordersuccessor/InOrderSuccesssorBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeTraversal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree (1)">
+  <component name="RunManager" selected="Application.Fibonacci">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.delnodefromBStree.BinarySearchTree" />
       <module name="DS" />
@@ -76,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.InsertBinarySearchTree" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.Fibonacci" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.SinglyLinkedList" />
+    <configuration name="InsertBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.InsertBinarySearchTree" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.BinarySearchTree (1)" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.InsertBinarySearchTree" />
         <item itemvalue="Application.TreeTraversal" />
-        <item itemvalue="Application.SinglyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +137,7 @@
       <workItem from="1616125397239" duration="190000" />
       <workItem from="1616125844688" duration="45889000" />
       <workItem from="1616431256953" duration="8125000" />
-      <workItem from="1616523205340" duration="10202000" />
+      <workItem from="1616523205340" duration="14164000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -177,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616476225153</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tree">
+      <created>1616638437348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616638437348</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
