@@ -41,7 +41,7 @@ public class TreeTraversal {
         }
     }
 
-    private void inOrderRecursive(Node root) {
+    void inOrderRecursive(Node root) {
         if (root != null) {
             inOrderRecursive(root.left);
             System.out.println(root.key);
