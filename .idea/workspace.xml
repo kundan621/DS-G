@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FloodFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/NQueen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/TargetSumOfSubsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,9 +52,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FloodFill">
-    <configuration name="FindKpc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.FindKpc" />
+  <component name="RunManager" selected="Application.NQueen">
+    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.FloodFill" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.FloodFill" />
+    <configuration name="NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.NQueen" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StairCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.StairCase" />
+    <configuration name="TargetSumOfSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.TargetSumOfSubsets" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NQueen" />
+        <item itemvalue="Application.TargetSumOfSubsets" />
         <item itemvalue="Application.FloodFill" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.StairCase" />
-        <item itemvalue="Application.FindKpc" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +143,7 @@
       <workItem from="1616125397239" duration="190000" />
       <workItem from="1616125844688" duration="45889000" />
       <workItem from="1616431256953" duration="8125000" />
-      <workItem from="1616523205340" duration="40696000" />
+      <workItem from="1616523205340" duration="50519000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616896299111</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="flood-fill">
+      <created>1616899706000</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616899706000</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +254,8 @@
     <MESSAGE value="dp" />
     <MESSAGE value="up down up" />
     <MESSAGE value="recursions" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursions" />
+    <MESSAGE value="flood-fill" />
+    <option name="LAST_COMMIT_MESSAGE" value="flood-fill" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
