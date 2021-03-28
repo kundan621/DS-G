@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FindAllIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FindFirstIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FindLastIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/MaxOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/TowerOfHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/FindKpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/FindSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/StairCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,9 +55,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindAllIndex">
-    <configuration name="FindAllIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.FindAllIndex" />
+  <component name="RunManager" selected="Application.Permutation">
+    <configuration name="FindKpc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.FindKpc" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFirstIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.FindFirstIndex" />
+    <configuration name="FindSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.FindSubsequence" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLastIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.FindLastIndex" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Permutation" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.MaxOfNumber" />
+    <configuration name="StairCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.StairCase" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.TowerOfHanoi" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Test" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindAllIndex" />
-        <item itemvalue="Application.FindLastIndex" />
-        <item itemvalue="Application.FindFirstIndex" />
-        <item itemvalue="Application.MaxOfNumber" />
-        <item itemvalue="Application.TowerOfHanoi" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StairCase" />
+        <item itemvalue="Application.FindKpc" />
+        <item itemvalue="Application.FindSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +146,7 @@
       <workItem from="1616125397239" duration="190000" />
       <workItem from="1616125844688" duration="45889000" />
       <workItem from="1616431256953" duration="8125000" />
-      <workItem from="1616523205340" duration="26059000" />
+      <workItem from="1616523205340" duration="37582000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616689918974</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="recursions">
+      <created>1616829366080</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616829366095</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +242,8 @@
     <MESSAGE value="tree" />
     <MESSAGE value="dp" />
     <MESSAGE value="up down up" />
-    <option name="LAST_COMMIT_MESSAGE" value="up down up" />
+    <MESSAGE value="recursions" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursions" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -355,6 +363,11 @@
           <url>file://$PROJECT_DIR$/src/Recursion/FindLastIndex.java</url>
           <line>6</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/FindKpc.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
