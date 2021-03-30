@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/NQueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/TargetSumOfSubsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ClimbStairsWithMinimumMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/StairCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/StairCaseWithJumps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,13 +53,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NQueen">
-    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.FloodFill" />
+  <component name="RunManager" selected="Application.ClimbStairsWithMinimumMoves">
+    <configuration name="ClimbStairsWithMinimumMoves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.ClimbStairsWithMinimumMoves" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +80,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Permutation" />
+    <configuration name="StairCase (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.StairCase" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StairCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.StairCase" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -92,25 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetSumOfSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.TargetSumOfSubsets" />
+    <configuration name="StairCaseWithJumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.StairCaseWithJumps" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Test" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClimbStairsWithMinimumMoves" />
+        <item itemvalue="Application.StairCaseWithJumps" />
+        <item itemvalue="Application.StairCase (1)" />
+        <item itemvalue="Application.StairCase" />
         <item itemvalue="Application.NQueen" />
-        <item itemvalue="Application.TargetSumOfSubsets" />
-        <item itemvalue="Application.FloodFill" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +144,7 @@
       <workItem from="1616125397239" duration="190000" />
       <workItem from="1616125844688" duration="45889000" />
       <workItem from="1616431256953" duration="8125000" />
-      <workItem from="1616523205340" duration="50519000" />
+      <workItem from="1616523205340" duration="61057000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -222,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616899706000</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="n queen and target sum of subset">
+      <created>1616936329683</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616936329683</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +263,8 @@
     <MESSAGE value="up down up" />
     <MESSAGE value="recursions" />
     <MESSAGE value="flood-fill" />
-    <option name="LAST_COMMIT_MESSAGE" value="flood-fill" />
+    <MESSAGE value="n queen and target sum of subset" />
+    <option name="LAST_COMMIT_MESSAGE" value="n queen and target sum of subset" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
