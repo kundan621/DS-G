@@ -55,7 +55,9 @@ public class FindPath {
         int source = scanner.nextInt();
         int destination = scanner.nextInt();
         boolean[] visited = new boolean[vertices];
-        System.out.println(hasPath(graph, source, destination, visited, ""));
+        //both implementatiions work well :) :) I have commented bwlo one coz print all path won't work else.
+        //System.out.println(hasPath(graph, source, destination, visited, ""));
+        printAllPath(graph, source, destination, visited, "");
     }
 
     public static boolean hasPath(List<Edge>[] graph, int source, int destination, boolean[] visited, String pathTillNow) {
@@ -76,5 +78,22 @@ public class FindPath {
 
         }
         return false;
+    }
+
+    public static void printAllPath(List<Edge>[] graph, int source, int destination, boolean[] visited, String pathTillNow) {
+        //if(0==6) true pr else trust neighbours. If neighbours to destination has path then path exists from you also.
+        if (source == destination) {
+            System.out.println(pathTillNow + destination);
+            return;
+        }
+        visited[source] = true;
+        pathTillNow = pathTillNow + source;
+        for (Edge edge : graph[source]) {
+            if (!visited[edge.neighbour]) {
+                printAllPath(graph, edge.neighbour, destination, visited, pathTillNow);
+
+            }
+
+        }
     }
 }
