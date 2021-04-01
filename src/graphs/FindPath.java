@@ -56,21 +56,20 @@ public class FindPath {
         int destination = scanner.nextInt();
         boolean[] visited = new boolean[vertices];
         //both implementatiions work well :) :) I have commented bwlo one coz print all path won't work else.
-        //System.out.println(hasPath(graph, source, destination, visited, ""));
-        printAllPath(graph, source, destination, visited, "");
+        //System.out.println(hasPath(graph, source, destination, visited, source+""));
+        printAllPath(graph, source, destination, visited, source + "");
     }
 
     public static boolean hasPath(List<Edge>[] graph, int source, int destination, boolean[] visited, String pathTillNow) {
         //if(0==6) true pr else trust neighbours. If neighbours to destination has path then path exists from you also.
         if (source == destination) {
-            System.out.println(pathTillNow + destination);
+            System.out.println(pathTillNow);
             return true;
         }
         visited[source] = true;
-        pathTillNow = pathTillNow + source;
         for (Edge edge : graph[source]) {
             if (!visited[edge.neighbour]) {
-                boolean hasNeighbourPath = hasPath(graph, edge.neighbour, destination, visited, pathTillNow);
+                boolean hasNeighbourPath = hasPath(graph, edge.neighbour, destination, visited, edge.neighbour + pathTillNow);
                 if (hasNeighbourPath) {
                     return true;
                 }
@@ -83,17 +82,17 @@ public class FindPath {
     public static void printAllPath(List<Edge>[] graph, int source, int destination, boolean[] visited, String pathTillNow) {
         //if(0==6) true pr else trust neighbours. If neighbours to destination has path then path exists from you also.
         if (source == destination) {
-            System.out.println(pathTillNow + destination);
+            System.out.println(pathTillNow);
             return;
         }
         visited[source] = true;
-        pathTillNow = pathTillNow + source;
         for (Edge edge : graph[source]) {
             if (!visited[edge.neighbour]) {
-                printAllPath(graph, edge.neighbour, destination, visited, pathTillNow);
+                printAllPath(graph, edge.neighbour, destination, visited, pathTillNow + edge.neighbour);
 
             }
 
         }
+        visited[source] = false;
     }
 }
