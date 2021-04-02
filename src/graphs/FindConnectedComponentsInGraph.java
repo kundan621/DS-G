@@ -3,6 +3,7 @@ package graphs;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//Primary Question:: logic i basically to iterate over all the vertice
 public class FindConnectedComponentsInGraph {
     private static class Edge {
         int source;
