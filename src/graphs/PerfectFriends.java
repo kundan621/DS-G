@@ -16,6 +16,16 @@ public class PerfectFriends {
         }
     }
 
+    // Enter number of students
+//7
+    //   Enter no of club
+//5
+    //       0 1
+    //      2 3
+    //     4 5
+    //     5 6
+    //    4 6
+    //    16
     public static void main(String args[]) {
         System.out.println("Enter number of students");
         Scanner scanner = new Scanner(System.in);
