@@ -80,7 +80,6 @@ public class FindPath {
     }
 
     public static void printAllPath(List<Edge>[] graph, int source, int destination, boolean[] visited, String pathTillNow) {
-        //if(0==6) true pr else trust neighbours. If neighbours to destination has path then path exists from you also.
         if (source == destination) {
             System.out.println(pathTillNow);
             return;

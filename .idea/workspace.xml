@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/heapsandpriorityqueue/HeapOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heapsandpriorityqueue/KSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heapsandpriorityqueue/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heapsandpriorityqueue/medianInPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/FindNumberOfIslands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/FindConnectedComponentsInGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/FindConnectedComponentsInGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/graphs/FindPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/FindPath.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,13 +56,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KSortedArray">
-    <configuration name="ClimbStairsWithMinimumMoves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.ClimbStairsWithMinimumMoves" />
+  <component name="RunManager" selected="Application.FindNumberOfIslands">
+    <configuration name="FindNumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.FindNumberOfIslands" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindNumberOfIslands" />
         <item itemvalue="Application.KSortedArray" />
         <item itemvalue="Application.PriorityQueue" />
         <item itemvalue="Application.HeapOperations" />
         <item itemvalue="Application.FindPath" />
-        <item itemvalue="Application.ClimbStairsWithMinimumMoves" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +147,7 @@
       <workItem from="1616125397239" duration="190000" />
       <workItem from="1616125844688" duration="45889000" />
       <workItem from="1616431256953" duration="8125000" />
-      <workItem from="1616523205340" duration="90134000" />
+      <workItem from="1616523205340" duration="98143000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -263,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617089517955</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="multiple codes">
+      <created>1617301589225</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1617301589225</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +304,8 @@
     <MESSAGE value="n queen and target sum of subset" />
     <MESSAGE value="stairs" />
     <MESSAGE value="find path" />
-    <option name="LAST_COMMIT_MESSAGE" value="find path" />
+    <MESSAGE value="multiple codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiple codes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
