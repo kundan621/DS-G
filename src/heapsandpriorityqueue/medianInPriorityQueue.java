@@ -4,52 +4,33 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class medianInPriorityQueue {
-    public static class MedianPriorityQueue {
-        java.util.PriorityQueue<Integer> left;
-        PriorityQueue<Integer> right;
+    public static void main(String[] args) {
+        java.util.PriorityQueue<Integer> maxPQ = new PriorityQueue<>(Collections.reverseOrder());
+        java.util.PriorityQueue<Integer> minPQ = new PriorityQueue<>();
+        int arr[] = {10, 20, 30};
+        for (int i = 0; i < arr.length; i++)
+            printMedian(arr[i], minPQ, maxPQ);
+    }
 
-        public MedianPriorityQueue() {
-            left = new PriorityQueue<>(Collections.reverseOrder());
-            right = new PriorityQueue<>();
-        }
+    //123(max) 456(min)
+    private static void printMedian(int num, PriorityQueue<Integer> minPQ, PriorityQueue<Integer> maxPQ) {
 
-        public int size() {
-            return left.size() + right.size();
+        if (maxPQ.isEmpty() || maxPQ.peek() > num) {
+            maxPQ.add(num);
+        } else {
+            minPQ.add(num);
         }
+        if (minPQ.size() > maxPQ.size() + 1) {
+            maxPQ.add(minPQ.remove());
+        } else if (maxPQ.size() > minPQ.size() + 1) {
+            minPQ.add(maxPQ.remove());
+        }
+        if (minPQ.size() > maxPQ.size()) {
+            System.out.println(minPQ.peek());
+        } else if (minPQ.size() < maxPQ.size()) {
+            System.out.println(maxPQ.peek());
+        } else
+            System.out.println((maxPQ.peek() + minPQ.peek()) / 2);
 
-        public int peek() {
-            if (this.size() == 0) {
-                System.out.println("underflow");
-                return -1;
-            } else if (left.size() >= right.size()) {
-                return left.peek();
-            } else {
-                return right.peek();
-            }
-        }
-
-        public int remove() {
-            if (this.size() == 0) {
-                System.out.println("underflow");
-                return -1;
-            } else if (left.size() >= right.size()) {
-                return left.remove();
-            } else {
-                return right.remove();
-            }
-        }
-
-        public void add(int val) {
-            if (right.size() > 0 && val > right.peek()) {
-                right.add(val);
-            } else if (right.size() - left.size() == 2) {
-                left.add(val);
-            }
-            if (left.size() - right.size() == 2) {
-                right.add(left.remove());
-            } else if (right.size() - left.size() == 2) {
-                left.add(right.remove());
-            }
-        }
     }
 }

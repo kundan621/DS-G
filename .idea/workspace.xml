@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Complexity/SortListOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Complexity/SortStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Arrays/CheckDuplicateInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Arrays/ReplaceString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Arrays/checkPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/TechnicalQuestions/FindPairOfIntegerWhoHasDifK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/TechnicalQuestions/RabinKarp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/TechnicalQuestions/abcdCube.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heapsandpriorityqueue/medianInPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heapsandpriorityqueue/medianInPriorityQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="D:/DataStructures" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -39,6 +47,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="CrackingTheCodingInterview" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Recursion" />
     </key>
@@ -55,13 +66,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortListOfStrings">
-    <configuration name="FindNumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.FindNumberOfIslands" />
+  <component name="RunManager" selected="Application.ReplaceString">
+    <configuration name="CheckDuplicateInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.Arrays.CheckDuplicateInString" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.*" />
+          <option name="PATTERN" value="CrackingTheCodingInterview.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.FindPath" />
+    <configuration name="ReplaceString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.Arrays.ReplaceString" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.*" />
+          <option name="PATTERN" value="CrackingTheCodingInterview.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamiltonianPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.HamiltonianPath" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Test" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerfectFriends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs.PerfectFriends" />
+    <configuration name="checkPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.Arrays.checkPermutation" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs.*" />
+          <option name="PATTERN" value="CrackingTheCodingInterview.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortListOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.Complexity.SortListOfStrings" />
+    <configuration name="medianInPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heapsandpriorityqueue.medianInPriorityQueue" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CrackingTheCodingInterview.Complexity.*" />
+          <option name="PATTERN" value="heapsandpriorityqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortListOfStrings" />
-        <item itemvalue="Application.HamiltonianPath" />
-        <item itemvalue="Application.FindPath" />
-        <item itemvalue="Application.PerfectFriends" />
-        <item itemvalue="Application.FindNumberOfIslands" />
+        <item itemvalue="Application.ReplaceString" />
+        <item itemvalue="Application.checkPermutation" />
+        <item itemvalue="Application.CheckDuplicateInString" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.medianInPriorityQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +157,7 @@
       <workItem from="1616125397239" duration="190000" />
       <workItem from="1616125844688" duration="45889000" />
       <workItem from="1616431256953" duration="8125000" />
-      <workItem from="1616523205340" duration="120578000" />
+      <workItem from="1616523205340" duration="146835000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -288,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617369655536</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="CTCI">
+      <created>1617465514396</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1617465514396</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +346,8 @@
     <MESSAGE value="island" />
     <MESSAGE value="perfect friends" />
     <MESSAGE value="Hamiltolian" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hamiltolian" />
+    <MESSAGE value="CTCI" />
+    <option name="LAST_COMMIT_MESSAGE" value="CTCI" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -476,8 +495,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CrackingTheCodingInterview/Complexity/SortListOfStrings.java</url>
-          <line>9</line>
+          <line>8</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/Permutation.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CrackingTheCodingInterview/TechnicalQuestions/abcdCube.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/heapsandpriorityqueue/medianInPriorityQueue.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/Test.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/java/jdk-11/lib/src.zip!/java.base/java/lang/String.java</url>
+          <line>2607</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
