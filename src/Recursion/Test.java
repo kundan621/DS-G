@@ -16,6 +16,8 @@ public class Test {
         String test1 = "Sólo en Ti";
         System.out.println(test1.toUpperCase());
 
+        System.out.println(Character.getNumericValue('c'));
+
 
 
     }
