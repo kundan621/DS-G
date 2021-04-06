@@ -3,7 +3,7 @@ package CrackingTheCodingInterview.linkedlist;
 import java.util.HashSet;
 
 public class RemoveDuplicates {
-    private static class Node {
+    static class Node {
         int data;
         Node nextNode;
 
