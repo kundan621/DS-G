@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Arrays/CheckGivenStringIsPermutationOfPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Arrays/Stringify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Arrays/CheckDuplicateInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Arrays/CheckDuplicateInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckGivenStringIsPermutationOfPalindrome">
+  <component name="RunManager" selected="Application.Stringify">
     <configuration name="CheckDuplicateInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.Arrays.CheckDuplicateInString" />
       <module name="DS" />
@@ -100,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Stringify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.Arrays.Stringify" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CrackingTheCodingInterview.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Test" />
       <module name="DS" />
@@ -113,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.Arrays.checkPermutation" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CrackingTheCodingInterview.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stringify" />
         <item itemvalue="Application.CheckGivenStringIsPermutationOfPalindrome" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.CheckDuplicateInString" />
         <item itemvalue="Application.ReplaceString" />
-        <item itemvalue="Application.checkPermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +149,7 @@
       <workItem from="1616125397239" duration="190000" />
       <workItem from="1616125844688" duration="45889000" />
       <workItem from="1616431256953" duration="8125000" />
-      <workItem from="1616523205340" duration="151641000" />
+      <workItem from="1616523205340" duration="155044000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -307,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617643012438</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="CTCI">
+      <created>1617649371905</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1617649371905</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
