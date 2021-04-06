@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Arrays/Stringify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Arrays/Stringify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/Arrays/Stringify.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +148,7 @@
       <workItem from="1616125397239" duration="190000" />
       <workItem from="1616125844688" duration="45889000" />
       <workItem from="1616431256953" duration="8125000" />
-      <workItem from="1616523205340" duration="155044000" />
+      <workItem from="1616523205340" duration="155511000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -312,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617649371905</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="CTCI">
+      <created>1617675007654</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1617675007654</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
