@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/linkedlist/RemoveDuplicatesUsingRunnerTechnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/linkedlist/RunnerTechnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/linkedlist/DeleteAGivenNodeWithoutHeadAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/linkedlist/KthFromBeginningToLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/linkedlist/PrintFromLastTOK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CrackingTheCodingInterview/linkedlist/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CrackingTheCodingInterview/linkedlist/RemoveDuplicates.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +60,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunnerTechnique">
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.linkedlist.RemoveDuplicates" />
+  <component name="RunManager" selected="Application.DeleteAGivenNodeWithoutHeadAccess">
+    <configuration name="DeleteAGivenNodeWithoutHeadAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.linkedlist.DeleteAGivenNodeWithoutHeadAccess" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CrackingTheCodingInterview.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KthFromBeginningToLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.linkedlist.KthFromBeginningToLast" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CrackingTheCodingInterview.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintFromLastTOK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.linkedlist.PrintFromLastTOK" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
@@ -100,39 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.linkedlist.SinglyList" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CrackingTheCodingInterview.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="oneAway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.Arrays.oneAway" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CrackingTheCodingInterview.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteAGivenNodeWithoutHeadAccess" />
+        <item itemvalue="Application.PrintFromLastTOK" />
+        <item itemvalue="Application.KthFromBeginningToLast" />
         <item itemvalue="Application.RunnerTechnique" />
         <item itemvalue="Application.RemoveDuplicatesUsingRunnerTechnique" />
-        <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.SinglyList" />
-        <item itemvalue="Application.oneAway" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,7 @@
       <workItem from="1616125397239" duration="190000" />
       <workItem from="1616125844688" duration="45889000" />
       <workItem from="1616431256953" duration="8125000" />
-      <workItem from="1616523205340" duration="167601000" />
+      <workItem from="1616523205340" duration="172067000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -342,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617720848287</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="CTCI- Runner technique">
+      <created>1617723637789</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1617723637789</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +391,8 @@
     <MESSAGE value="Hamiltolian" />
     <MESSAGE value="CTCI" />
     <MESSAGE value="CTCI- linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="CTCI- linked List" />
+    <MESSAGE value="CTCI- Runner technique" />
+    <option name="LAST_COMMIT_MESSAGE" value="CTCI- Runner technique" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
