@@ -7,28 +7,49 @@ public class Test {
 
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        ArrayList<String> output = gss(input);
-        System.out.print(output);
+        int rows = scanner.nextInt();
+        int columns = scanner.nextInt();
+        ArrayList<String> paths = getMazePaths(1, 1, rows, columns, "");
+        System.out.println(paths);
+
     }
 
-    //BC = B_, _C, _ _, BC
-    //ABC= AB_, A_C,  A_ _,  ABC  , _B_, _ _ C,  _ _ _,  _BC
-    public static ArrayList<String> gss(String str) {
-        if (str.length() == 0) {
+    // sr - source row
+    // sc - source column
+    // dr - destination row
+    // dc - destination column
+    public static ArrayList<String> getMazePaths(int sr, int sc, int dr, int dc, String ans) {
+
+        if (sr == dr && sc == dc) {
             ArrayList<String> list = new ArrayList<>();
-            list.add("");
+            list.add(ans);
             return list;
+        } else if (sr > dr || sc > dc) {
+            return new ArrayList<String>();
         }
 
-        Character element = str.charAt(0);
-        ArrayList<String> ss = gss(str.substring(1));
         ArrayList<String> finalList = new ArrayList<>();
-        for (String seq : ss) {
-            finalList.add("" + seq);
-            finalList.add(element + seq);
+        for (int i = 1; i <= dc; i++) {
+            ArrayList<String> colMoves = getMazePaths(sr, sc + i, dr, dc, ans + "h" + i);
+            for (String colRow : colMoves) {
+                finalList.add(colRow);
+            }
+        }
+        for (int j = 1; j <= dr; j++) {
+            ArrayList<String> rowMoves = getMazePaths(sr + j, sc, dr, dc, ans + "v" + j);
+            for (String Pathrow : rowMoves) {
+                finalList.add(Pathrow);
+            }
+        }
+
+        for (int d = 1; d <= dc - sc && d <= dr - sr; d++) {
+            ArrayList<String> diagMoves = getMazePaths(sr + d, sc + d, dr, dc, ans + "d" + d);
+            for (String diagRow : diagMoves) {
+                finalList.add(diagRow);
+            }
+
         }
         return finalList;
-    }
 
+    }
 }
