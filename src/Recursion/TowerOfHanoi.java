@@ -2,16 +2,21 @@ package Recursion;
 
 public class TowerOfHanoi {
     public static void main(String[] args) {
-        tower(3, 'A', 'B', 'C');
+        //Algo: Move n-1 from Source to helper
+        //Move 1 from Source to destination (print)
+        //Move n-1 from helper back to destination
+
+        printPathForTowerOfHanoi(3, 'A', 'B', 'C');
+
+
     }
 
-    private static void tower(int n, char a, char b, char c) {
-        if (n == 0)
+    private static void printPathForTowerOfHanoi(int numberOfDisk, char source, char destination, char helper) {
+        if (numberOfDisk < 1)
             return;
-
-        tower(n - 1, a, c, b);
-        System.out.println("1 moved from" + a + "->" + b);
-        tower(n - 1, c, b, a);
-
+        printPathForTowerOfHanoi(numberOfDisk - 1, source, helper, destination);
+        System.out.println(source + "->" + destination);
+        printPathForTowerOfHanoi(numberOfDisk - 1, helper, destination, source);
     }
+
 }
