@@ -3,7 +3,7 @@ package Recursion;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class MazePathWithJumps
+public class MazePathWithJumps {
 
         public static void main(String[] args) throws Exception {
             Scanner scanner = new Scanner(System.in);
