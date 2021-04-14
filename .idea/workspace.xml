@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PrintSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MinCost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/FloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/FloodFill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Recursion/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.PrintSubsequences" />
+    <configuration name="StairCaseWithJumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.StairCaseWithJumps" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,10 +128,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.GoldmanSachs" />
+        <item itemvalue="Application.StairCaseWithJumps" />
         <item itemvalue="Application.NQueen" />
         <item itemvalue="Application.FloodFill" />
-        <item itemvalue="Application.PrintSubsequences" />
-        <item itemvalue="Application.GoldmanSachs" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +151,7 @@
       <workItem from="1616125844688" duration="45889000" />
       <workItem from="1616431256953" duration="8125000" />
       <workItem from="1616523205340" duration="191036000" />
-      <workItem from="1618051876667" duration="44678000" />
+      <workItem from="1618051876667" duration="52867000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -378,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618254176023</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="revision">
+      <created>1618383678462</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1618383678462</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,6 +629,11 @@
           <url>file://$PROJECT_DIR$/src/CrackingTheCodingInterview/linkedlist/ReverseLinkedList.java</url>
           <line>27</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/Test.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
