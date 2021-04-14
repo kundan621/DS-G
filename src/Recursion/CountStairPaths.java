@@ -2,9 +2,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-//(n+1)*n  memory
-//2^n-1*n characters otherwise in case of arraylist method
-public class Test {
+public class CountStairPaths {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         int stairs = scanner.nextInt();

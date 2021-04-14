@@ -33,6 +33,7 @@ public class FloodFill {
 
         if (row == maze.length - 1 && column == maze[0].length - 1) {
             System.out.println(path);
+            return;
         }
         visited[row][column] = 1;
         printPath(maze, row - 1, column, path + "t", visited);//top
