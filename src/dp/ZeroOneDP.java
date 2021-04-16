@@ -1,11 +1,8 @@
-package Recursion;
+package dp;
 
 import java.util.Scanner;
 
-//(n+1)*n  memory
-//2^n-1*n characters otherwise in case of arraylist method
-
-public class Test {
+public class ZeroOneDP {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numberOfItems = scanner.nextInt();
@@ -27,9 +24,9 @@ public class Test {
         for (int i = 1; i <= value.length; i++) {
             for (int j = 0; j <= bagSize; j++) {
                 dp[i][j] = dp[i - 1][j];
-                if (j >= wts[i - 1]) {
+                if (j >= weight[i - 1]) {
                     int remaining = j - weight[i - 1];
-                    if (dp[i - 1][remaining] + vals[i - 1] > dp[i - 1][j]) {
+                    if (dp[i - 1][remaining] + value[i - 1] > dp[i - 1][j]) {
                         dp[i][j] = dp[i - 1][remaining] + value[i - 1];
                     } else {
                         dp[i][j] = dp[i - 1][j];

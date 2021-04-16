@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/GoldMine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/TargetSumSubsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/CoinCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/CoinPermute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ZeroOneDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ZeroOneKnapsackRecursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Recursion/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/TargetSumSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/TargetSumSubsets.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +64,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Test">
+    <configuration name="CoinCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.CoinCombination" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoldmanSachs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CrackingTheCodingInterview.TechnicalQuestions.GoldmanSachs" />
       <module name="DS" />
@@ -74,38 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.NQueen" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StairCaseWithJumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.StairCaseWithJumps" />
-      <module name="DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TargetSumOfSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.TargetSumOfSubsets" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TargetSumSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.TargetSumSubsets" />
+      <module name="DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,10 +132,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CoinCombination" />
+        <item itemvalue="Application.TargetSumSubsets" />
         <item itemvalue="Application.TargetSumOfSubsets" />
         <item itemvalue="Application.GoldmanSachs" />
-        <item itemvalue="Application.StairCaseWithJumps" />
-        <item itemvalue="Application.NQueen" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +156,7 @@
       <workItem from="1616431256953" duration="8125000" />
       <workItem from="1616523205340" duration="191036000" />
       <workItem from="1618051876667" duration="59816000" />
-      <workItem from="1618463884784" duration="3106000" />
+      <workItem from="1618463884784" duration="12920000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -393,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618419869116</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Target sum of subsets">
+      <created>1618489572424</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1618489572425</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +448,8 @@
     <MESSAGE value="CTCI- Runner technique" />
     <MESSAGE value="CTCI- linked list" />
     <MESSAGE value="revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="revision" />
+    <MESSAGE value="Target sum of subsets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Target sum of subsets" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -641,18 +652,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Recursion/Test.java</url>
-          <line>11</line>
+          <line>7</line>
           <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Recursion/Test.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Recursion/Test.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
