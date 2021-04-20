@@ -14,11 +14,11 @@ public class PrintFromLastTOK {
     public static void main(String[] args) {
         Node head = new Node(20);
         head.next = new Node(30);
-        head.next.next = new Node(40);
-        head.next.next.next = new Node(50);
-        head.next.next.next.next = new Node(60);
-        printKthElementFromLastRecursive(head, 3);
-        printKthElementFromLastIterative(head, 3);
+        /*head.next.next = new Node(40);*/
+        /*head.next.next.next = new Node(50);
+        head.next.next.next.next = new Node(60);*/
+        printKthElementFromLastRecursive(head, 2);
+        printKthElementFromLastIterative(head, 2);
     }
 
     private static void printKthElementFromLastIterative(Node head, int k) {

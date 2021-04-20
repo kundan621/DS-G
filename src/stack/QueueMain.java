@@ -11,8 +11,7 @@ public class QueueMain {
         System.out.println(queue.dequeue());
         System.out.println(queue.dequeue());
         queue.enqueue(15);
-        //queue.enqueue(15);
-
+        //queue.enqueue(15)
     }
 
 }
