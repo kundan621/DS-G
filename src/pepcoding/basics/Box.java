@@ -20,6 +20,6 @@ public class Box<T> {
     public static void main(String[] args) {
         Box<Integer> integerBox = new Box<Integer>();
         integerBox.set(10);
-        integerBox.inspect(90); // error: this is still String!
+        integerBox.inspect("ok"); // error: this is still String!
     }
 }
