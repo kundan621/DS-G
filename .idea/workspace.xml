@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Triangle120.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/TriangleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/google/InsertInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/google/ParkingSystemMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/google/UniqueOccurrencesMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/google/hey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/paypal/MaxAreaOfIsland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/paypal/ReversePairMergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pepcoding/basics/Base7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pepcoding/basics/Basics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pepcoding/basics/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pepcoding/basics/CheckIfANumberIsSumOfPowersOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pepcoding/basics/DecimalToAnyBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pepcoding/basics/Generics.java" afterDir="false" />
+    <list default="true" id="71c84a77-ced4-4945-a27a-a5ab495e08b3" name="Default Changelist" comment="dp">
+      <change afterPath="$PROJECT_DIR$/src/java8/LearnInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/LearnStreams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,13 +63,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Generics">
-    <configuration name="Base7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pepcoding.basics.Base7" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="KeyPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.KeyPair" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pepcoding.basics.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pepcoding.basics.Box" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.Main" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pepcoding.basics.*" />
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckIfANumberIsSumOfPowersOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pepcoding.basics.CheckIfANumberIsSumOfPowersOfThree" />
+    <configuration name="PermutationUsingArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pepcoding.arrays.PermutationUsingArrayList" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pepcoding.basics.*" />
+          <option name="PATTERN" value="pepcoding.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecimalToAnyBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pepcoding.basics.DecimalToAnyBase" />
+    <configuration name="PrintAllSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pepcoding.arrays.PrintAllSubstrings" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pepcoding.basics.*" />
+          <option name="PATTERN" value="pepcoding.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pepcoding.basics.Generics" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pepcoding.arrays.Test" />
       <module name="DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pepcoding.basics.*" />
+          <option name="PATTERN" value="pepcoding.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Generics" />
-        <item itemvalue="Application.Box" />
-        <item itemvalue="Application.Base7" />
-        <item itemvalue="Application.CheckIfANumberIsSumOfPowersOfThree" />
-        <item itemvalue="Application.DecimalToAnyBase" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.PermutationUsingArrayList" />
+        <item itemvalue="Application.PrintAllSubstrings" />
+        <item itemvalue="Application.KeyPair" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +166,10 @@
       <workItem from="1629953775082" duration="996000" />
       <workItem from="1630158992175" duration="6211000" />
       <workItem from="1630286898685" duration="5047000" />
+      <workItem from="1630388793755" duration="11772000" />
+      <workItem from="1630731242999" duration="9330000" />
+      <workItem from="1630892924415" duration="16686000" />
+      <workItem from="1631349336133" duration="1225000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1616227128125</created>
@@ -440,7 +430,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618908175767</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="dp">
+      <created>1630389776370</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1630389776370</updated>
+    </task>
+    <task id="LOCAL-00039" summary="dp">
+      <created>1631349376255</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1631349376256</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -727,6 +731,36 @@
           <url>file://$PROJECT_DIR$/src/leetcode/paypal/ReversePairMergeSort.java</url>
           <line>39</line>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pepcoding/arrays/PermutationUsingArrayList.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pepcoding/arrays/PermutationUsingArrayList.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pepcoding/arrays/PermutationUsingArrayList.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pepcoding/arrays/PermutationUsingArrayList.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pepcoding/arrays/Test.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pepcoding/arrays/Test.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/leetcode/google/hey.js</url>
