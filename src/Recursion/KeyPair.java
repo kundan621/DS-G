@@ -14,14 +14,14 @@ public class KeyPair {
 
     static String[] keyMap = {".;", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz"};
 
-    public static ArrayList<String> getKPC(String str) {
-        if (str.length() == 0) {
+    public static ArrayList<String> getKPC(String input) {
+        if (input.length() == 0) {
             ArrayList<String> list = new ArrayList();
             list.add("");
             return list;
         }
-        int first = Character.getNumericValue(str.charAt(0));
-        ArrayList<String> list = getKPC(str.substring(1));
+        int first = Character.getNumericValue(input.charAt(0));
+        ArrayList<String> list = getKPC(input.substring(1));
         ArrayList<String> finalList = new ArrayList<>();
         String key = keyMap[first];
         for (int i = 0; i < key.length(); i++) {
